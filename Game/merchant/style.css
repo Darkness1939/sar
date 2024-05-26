@@ -1,0 +1,364 @@
+html, body{
+    background-color: rgb(178, 204, 32);
+    font-family: "Pixelify Sans", sans-serif;
+}
+#chel{ 
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    left: 80px;
+    top: 400px;
+}
+#oh{
+    width: 100%;
+    height: 30px;
+    margin-top: 140px;
+    background-color: yellow;
+    font-size: 15px;
+}
+#oh1{
+    width: 100%;
+    height: 30px;
+    margin-top: 66px;
+    background-color: yellow;
+    font-size: 15px;
+}
+#mainzhach{
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+.space{
+    height: 53px;
+    display: flex;
+}
+.znach{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 50px;
+    z-index: 2;
+}
+.znach:first-child{
+    margin-left: 0;
+    background-color: red;
+}
+.znach:nth-child(2){
+    background-color: blue;
+}
+#money{
+    border: 2px solid black;
+    background-color: rgb(180, 180, 29);
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 50px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+#text{
+    flex-wrap: wrap;
+ width: 400px;
+ height: 200px;
+ margin-top: 150px;
+ margin-left: 700px;
+border: 2px solid black;
+background-color: white;
+  font-size: 75px;
+  position: absolute;
+  z-index: 10;
+display: none;
+
+}
+#skills{
+    margin-left: 10px;
+    font-size: 50px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    border: 2px black solid;
+    background-color: gray;
+
+}
+#dres{
+    background-color: rgb(139, 13, 13);
+    width: 100%;
+    height: 50px;
+    transform: translateY(30px);
+}
+#dagon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    font-size: 30;
+    background-color: orangered;
+    filter: brightness(90%);
+}
+#dagondescription{
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 15px;
+    width: 300px;
+    height: 75px;
+    transform: translateY(65px);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#stats{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+}
+#damage{
+    color: lightcoral;
+}
+#manacost{
+    color: rgb(141, 210, 233);
+}
+#cd{
+    color: black;
+}
+#dagon:hover #dagondescription{
+    display: block;
+}
+#merchantdoor{
+    background-color: rgb(138, 108, 25);
+    width: 50px;
+    height: 300px;
+    position: absolute;
+    left: -10px;
+    top: 300px;
+}
+#help{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border: black 2px solid;
+    position: absolute;
+    z-index: 10;
+    transform: translate(700px, 300px);
+    display: none;
+    flex-wrap: wrap;
+    font-size: 25px;
+    justify-content: space-between;
+}
+#yeah{
+    background-color: green;
+    width: 100px;
+}
+#nah{
+    background-color: red;
+    width: 100px;
+}
+#merchant{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translate(900px);
+}
+#table{
+    width: 600px;
+    height: 100px;
+    background-color: saddlebrown;
+    transform: translate(650px);
+}
+#tot{
+    width: 60px;
+    height: 60px;
+}
+#toteme{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(670px, -90px);
+}
+.big{
+    font-size: 30px;
+}
+.coinmer{
+    width: 30px;
+    height: 30px;
+    transform: translateY(5px);
+}
+#cost{
+    transform: translate(5px,-10px);
+}
+#totemdescription{
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 12px;
+    width: 300px;
+    height: 75px;
+    transform: translate(-115px, 20px);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+#totema:hover #totemdescription{
+    display: block;
+    transform: translate(-100px, 30px);
+}
+#totem:hover #totemdescription{
+    display: block;
+    transform: translate(-250px);
+}
+#totem{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 70px;
+    left: 1860px;
+}
+
+#edge{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(770px, -180px);
+}
+#ed{
+    width: 80px;
+    height: 80px;
+}
+#cost2{
+    transform: translate(5px,-20px);
+}
+#edgedescription{
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 12px;
+    width: 300px;
+    height: 90px;
+    transform: translate(-115px, 20px);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+#edge1:hover #edgedescription{
+    display: block;
+    height: 70px;
+}
+#edges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    font-size: 30;
+    background-color: purple;
+    filter: brightness(90%);
+}
+#edges:hover #edgedescription{
+    display: block;
+    transform: translate(-20px, 73px);
+}
+#flakon{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(1025px, -250px);
+}
+#fla{
+    width: 60px;
+    height: 60px;
+}
+#flakondescription{
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 12px;
+    width: 300px;
+    height: 85px;
+    transform: translate(-115px, 20px);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+#cost3{
+    transform: translate(-5px, -8px);
+}
+.coiner{
+    width: 30px;
+    height: 30px;
+    transform: translate(50px, -32px);
+}
+#flakon:hover #flakondescription{
+    display: block;
+    transform: translate(-120px, 30px);
+}
+#dn{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(1150px, -320px);
+}
+#dd{
+    width: 60px;
+}
+#dndescription{
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 12px;
+    width: 300px;
+    height: 65px;
+    transform: translate(-115px, 20px);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+#cost4{
+    transform: translate(-5px, -9px);
+}
+.coiner2{
+    width: 30px;
+    height: 30px;
+    transform: translate(55px, -32px);
+}
+#dn:hover #dndescription{
+    display: block;
+    transform: translate(-120px, 30px);
+}
+#dno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    font-size: 30;
+    color: white;
+    background-color: black;
+    filter: brightness(90%);
+}
+#dno:hover #dndescription{
+    display: block;
+    color: black;
+    height: 75px;
+    transform: translate(-90px, 65px);
+}
+#deep{
+    width: 50px;
+    height: 300px;
+    background-color: gray;
+    transform: translate(1862px, -275px);
+    position: absolute;
+    z-index: 1;
+}
